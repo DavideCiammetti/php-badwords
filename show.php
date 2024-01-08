@@ -4,17 +4,15 @@
    $sost = '***';
 
    echo 'la frase inserita è:';
-   echo "\t";
-   echo $frase;
+   echo $frase . "<br>";
    echo ' la parola da sostituire è:';
-   echo "\t";
-   echo $parola;
-
+   echo $parola. "<br>";
+   
    echo ' la frase è lunga: ';
-   echo "\t";
-   echo strlen($frase);
-   echo "\t";
+   // metodo per calcolare la lunghezza della stringa 
+   echo strlen($frase). "<br>";
+
    echo 'la frase censurata è:';
-   echo "\t";
+   // metodo per sostituire una parola con un altra stringa 
    echo str_replace($parola, $sost, $frase);
 ?>

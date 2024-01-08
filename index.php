@@ -23,6 +23,5 @@
             <button type="submit" id="invia"  placeholder="send">send</button>
         </form>
     </main>
-
 </body>
 </html>
